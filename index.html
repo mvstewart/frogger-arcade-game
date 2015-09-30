@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<audio autoplay="autoplay" id='audio' loop='loop'>
+		<!-- Music credit: http://wrathgames.com/blog [WrathGames Studio] -->
+		<source src="audio/happyland.ogg" type="audio/ogg" />
+	</audio>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+    <style>
+    	.button {
+			margin:10px auto;width:180px;
+			border:solid 2px #238E23;
+ 			color:#238E23;
+ 			text-align:center;
+ 			cursor:pointer;
+ 			padding:4px;
+ 			display:block;
+ 			text-decoration:none;
+		}
+		.button:hover {background-color:#222;}
+	</style>
+	<section>
+	<div id="restart-area">
+      <button id="restartBtn" onclick="Restart();">Restart</button>
+    </div>
+    <div id="leader-board">
+    	<p id="highest-score">Highest score: </p>
+    </div>
+    <section>
+    <footer>
+    	Executed and enhanced by <a href="#">Marina Stewart</a>
+    </footer>
+</body>
+</html>

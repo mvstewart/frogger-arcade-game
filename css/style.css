@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+#leader-board {
+	font-weight: bold;
+	font-family: Verdana;
+	color: red;
+}
